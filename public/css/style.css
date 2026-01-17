@@ -1,0 +1,150 @@
+body,html{
+    margin:0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background:linear-gradient(120deg, #bfb3b3, #4e5c60);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background: rgba(50, 50, 43, 0.5);
+    padding: 40px 60px;
+    border-radius: 12%;
+    text-align: center;
+    color: #eaeaea;
+    margin:20%;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.login-btn {
+    background: #514d7e;
+}
+
+.login-btn:hover {
+    background: #0d02a6;
+}
+
+.register-btn {
+    background: #2b7a3e;
+}
+
+.register-btn:hover {
+    background: #01a647;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.login-box h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4f46e5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-box button:hover {
+    background-color: #4338ca;
+}
+
+.register-container{
+    width: 100%;
+    max-width: 400px;
+    padding:20px;
+}
+
+.register-box{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.register-box h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.register-box input{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.register-box button{
+    width: 100%;
+    padding: 12px;
+    background-color: #4f46e5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.register-box button:hover{
+    background-color: #4338ca;
+}
